@@ -1,0 +1,15 @@
+
+lxi h,02050H
+LXI D, 02050H
+MVI B,006H
+Loop: MOV A,M
+ORA A 
+JZ Skip
+STAX D
+INX D
+Skip: INX H
+DCR B
+JNZ Loop
+
+
+hlt

@@ -1,0 +1,17 @@
+
+mvi A,051H
+mov B,A
+sui 050H
+jc Delete
+mov A,B
+SUI 080H
+JC DSPLAY
+Delete: XRA A
+OUT 01
+HLT
+DSPLAY: MOV A,B
+OUT 02
+HLT
+
+
+hlt

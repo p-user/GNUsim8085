@@ -1,0 +1,6 @@
+
+mvi b, 030h
+mvi c, 039h
+mov a,b
+sub c
+hlt

@@ -1,0 +1,7 @@
+
+MVI A,092H
+ORA A
+JP Outptr
+XRA A
+Outptr: OUT 0F2H
+hlt

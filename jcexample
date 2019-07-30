@@ -1,0 +1,9 @@
+
+mvi A,08fH
+adi 072H
+jc Dsplay
+out 01
+hlt
+Dsplay: xra A
+out 01
+hlt

@@ -1,0 +1,16 @@
+
+stc
+cmc
+mvi B, 09AH
+MVI A,0
+LXI H,0
+Basla: adi 1
+daa
+jnc eldesiz
+inr H
+eldesiz: dcr b
+JNZ Basla
+mov L,A
+
+
+hlt

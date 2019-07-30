@@ -1,0 +1,10 @@
+
+MVI A, 0A7H
+ORA A
+JM Outprt
+out 001H
+hlt
+Outprt: cma
+adi 001h
+out 001h
+hlt

@@ -1,0 +1,10 @@
+
+;<Program title>
+
+mvi d,08bh
+mvi c, 06fh
+inr c
+mov a,c
+add d
+
+hlt
